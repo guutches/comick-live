@@ -7567,7 +7567,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
   };
 
   // src/ComicK/ComicK.ts
-  var COMICK_DOMAIN = "https://comick.io";
+  var COMICK_DOMAIN = "https://comick.live";
   var COMICK_API = "https://api.comick.fun";
   var LIMIT = 300;
   var ComicKInfo = {
@@ -7576,7 +7576,7 @@ ${"".padEnd(offset)}${"^".repeat(len)}`;
     icon: "icon.png",
     author: "xOnlyFadi",
     authorWebsite: "https://github.com/xOnlyFadi",
-    description: "Extension that pulls manga from comick.cc.",
+    description: "Extension that pulls manga from comick.live.",
     contentRating: import_types2.ContentRating.MATURE,
     websiteBaseURL: COMICK_DOMAIN,
     intents: import_types2.SourceIntents.HOMEPAGE_SECTIONS | import_types2.SourceIntents.SETTINGS_UI | import_types2.SourceIntents.MANGA_CHAPTERS | import_types2.SourceIntents.CLOUDFLARE_BYPASS_REQUIRED,
